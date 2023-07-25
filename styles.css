@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: pink;
+}
+/* .wrapper {
+  width: 800px;
+  height: 90vh;
+  background-color: pink;
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  grid-auto-rows: 175px;
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+} */
+.sticker {
+  width: 100px;
+  height: 175px;
+  background-image: url(https://st2.depositphotos.com/1056223/8633/v/600/depositphotos_86335254-stock-illustration-geeky-boy-game-sprites.jpg);
+  animation: skipStep 2s steps(1) infinite;
+}
+/* .sticker-1 {
+  background-position: 9% 0;
+}
+.sticker-2 {
+  background-position: 28% 0;
+}
+.sticker-3 {
+  background-position: 47% 0;
+}
+.sticker-4 {
+  background-position: 66% 0;
+}
+.sticker-5 {
+  background-position: 89% 0;
+}
+.sticker-6 {
+  background-position: 0% 50%;
+}
+.sticker-7 {
+  background-position: 20% 50%;
+}
+.sticker-8 {
+  background-position: 40% 50%;
+}
+.sticker-9 {
+  background-position: 60% 50%;
+}
+.sticker-10 {
+  background-position: 79% 50%;
+}
+.sticker-11 {
+  background-position: 97% 50%;
+}
+.sticker-12 {
+  background-position: 4% 95%;
+}
+.sticker-13 {
+  background-position: 25% 95%;
+}
+.sticker-14 {
+  background-position: 47% 95%;
+}
+.sticker-15 {
+  background-position: 69% 95%;
+}
+.sticker-16 {
+  background-position: 94% 95%;
+} */
+@keyframes skipStep {
+  0% {
+    background-position: 9% 0;
+  }
+  6.25% {
+    background-position: 28% 0;
+  }
+
+  12.5% {
+    background-position: 47% 0;
+  }
+  18.75% {
+    background-position: 66% 0;
+  }
+  25% {
+    background-position: 89% 0;
+  }
+  31.25% {
+    background-position: 0% 50%;
+  }
+  37.5% {
+    background-position: 20% 50%;
+  }
+  43.75% {
+    background-position: 40% 50%;
+  }
+  50% {
+    background-position: 60% 50%;
+  }
+  56.25% {
+    background-position: 79% 50%;
+  }
+  62.25% {
+    background-position: 97% 50%;
+  }
+  68.75% {
+    background-position: 4% 95%;
+  }
+  75% {
+    background-position: 25% 95%;
+  }
+  81.25% {
+    background-position: 47% 95%;
+  }
+  87.5% {
+    background-position: 69% 95%;
+  }
+  93.75% {
+    background-position: 94% 95%;
+  }
+}
